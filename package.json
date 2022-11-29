@@ -1,0 +1,20 @@
+{
+  "name": "cynergyus",
+  "version": "1.0.0",
+  "description": "Cynergyus landing page",
+  "repository": "git@github.com:CynergyIT/cynergyus.git",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "lint-staged": "^13.0.4",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.0"
+  },
+  "lint-staged": {
+    "src/js/Main/**/*.{js,html,css}": [
+      "npx prettier --write"
+    ]
+  }
+}
