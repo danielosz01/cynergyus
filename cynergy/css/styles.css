@@ -120,12 +120,11 @@ a.white {
 
 .btn-solid-reg {
 	display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	padding: 1.075rem 1.9rem 1.0675rem 1.9rem;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #ffad0a;
 	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.65rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -150,7 +149,6 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00c9db;
 	text-decoration: none;
 }
 
@@ -809,11 +807,16 @@ input[type='checkbox'] {
 }
 
 .header .btn-solid-lg {
+	border: none;
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
 	background-color: #FFAD0A;
-	border-color: #FFAD0A;
 	border-radius: 0.5rem;
+}
+
+.header .btn-solid-lg:hover {
+	background-color: #0050D8;
+	
 }
 
 .header-slider {
@@ -863,6 +866,14 @@ input[type='checkbox'] {
         object-fit: cover;
       }
 
+.swiper .img-fluid {
+	height: 100%;
+} 
+
+
+
+
+
 
 
 
@@ -882,7 +893,13 @@ input[type='checkbox'] {
 }
 
 .services h5 {
-	color: #2F3745;
+	color: #464646;
+}
+
+.services h3 {
+	color: #363636;
+	font-size: large;
+	padding: 0.6rem 0rem 1rem 0rem;
 }
 
 .services p {
@@ -1104,7 +1121,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 4.5rem;
 	padding-bottom: 7.25rem;
-	background-color: #fafbfe;
+	background-color: #fff;
 }
 
 .basic-2 .text-container {
@@ -1117,9 +1134,6 @@ input[type='checkbox'] {
 	color: #0050D8;
 }
 
-.basic-2 .btn-solid-reg {
-	margin-top: 0.5rem;
-}
 
 .basic-2 p {
 	color: #6c6c6d;
@@ -1131,13 +1145,14 @@ input[type='checkbox'] {
 
 .basic-2 .btn-solid-reg {
 
+	margin-top: 0.5rem;
 	font-size: 0.88rem;
 	background-color: #ffad0a;
-	border-color: #ffad0a;
 	border-radius: 0.5rem;
 }
 
 .basic-2 .btn-solid-reg:hover {
+	background-color: #0050D8;
 	color: #fff;
 }
 
@@ -2274,7 +2289,7 @@ opacity: 0;
   }
   
   .text-box h2{
-	color: #7c7c7c;
+	color: #353535;
 	font-weight: 600;
   }
   .text-box small{
@@ -2296,7 +2311,7 @@ opacity: 0;
 	z-index: 1;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-left: 15px solid rgb(243, 243, 243);
+	border-left: 15px solid #EDF2FA;
 	right: -15px;
   }
   .right-container-arrow{
@@ -2307,7 +2322,7 @@ opacity: 0;
 	z-index: 1;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-right: 15px solid rgb(243, 243, 243);
+	border-right: 15px solid #EDF2FA;
 	left: -15px;
   }
   
@@ -2374,6 +2389,104 @@ opacity: 0;
 	
   
   }
+
+
+/*************************/
+/*     Software Page     */
+/*************************/
+
+
+.software {
+	background-color: #fff;
+}
+
+.software .sf-image {
+	height: 1.7rem;
+	margin-left: 1rem;
+} 
+
+.software h2 {
+	color: #414141;
+	margin-bottom: -1rem;
+	font-size: 1.6rem;
+}
+
+.software h3 {
+	color: #414141;
+	padding-bottom: 1rem;
+}
+
+.software h5 {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	color: #585858;
+}
+
+.software p {
+	margin-top: 0.7rem;
+	color: #b8b8b8;
+}
+
+.software li {
+	color: #646464;
+}
+
+.software .text-box-yellow {
+	padding: 2rem 1rem 2rem 1rem;
+	background-color: #FFFCF6;
+	margin: 1rem;
+}
+
+.software .text-box-blue {
+	padding: 2rem 1rem 2rem 1rem;
+	background-color: #F4F7FD;
+	margin: 1rem;
+}
+
+
+/*************************/
+/*        ISO Page       */
+/*************************/
+
+.iso-page h2 {
+	color: #636363;
+	margin: 2rem 0rem 2rem 1rem;
+	font-size: 1.9rem;
+}
+
+.iso-page h3 {
+	color: #414141;
+	padding-bottom: 1rem;
+}
+
+.iso-page h5 {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	color: #585858;
+}
+
+.iso-page p {
+	margin-top: 2rem;
+	color: #858585;
+	font-size: 0.9rem;
+}
+
+.iso-page li {
+	color: #757575;
+}
+
+.ibox-yellow {
+	padding: 2rem 1rem 2rem 1rem;
+	background-color: #FFFCF6;
+	margin: 1rem;
+}
+
+.ibox-blue {
+	padding: 2rem 1rem 2rem 1rem;
+	background-color: #F4F7FD;
+	margin: 1rem;
+}
+
 
 
 
@@ -3270,7 +3383,7 @@ opacity: 0;
 .contact-section-global .card h5 {
 	margin-left: 2rem;
 	margin-bottom: 0;
-	margin-top: 1rem;
+	margin-top: 0.6rem;
 }
 
 .contact-section-global .col-md-6 .btn-solid-reg {
@@ -3391,6 +3504,10 @@ opacity: 0;
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 5rem 0.5rem 5rem;
 	}
+
+	.navbar-custom .navbar-brand.logo-image img {
+		margin-left: 0rem;
+	}
 	/* end of navigation */
 
 	
@@ -3404,19 +3521,17 @@ opacity: 0;
 	/* Header */
 	.header .text-container {
 		margin-top: 5.5rem;
-		margin-left: 2.5rem;
+		
 	}
 
-	.header .image-container {
-		margin-left: 3rem;
-	}
+	
 
 	.swiper {
         width: 100%;
         height: 650PX;
 		padding-top: 2rem;
-		padding-left: 3rem;
-		padding-right: 3rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
       }
 
       .swiper-slide {
