@@ -1923,7 +1923,10 @@ a:hover.back-to-top {
 /*     19. Extra Pages     */
 /***************************/
 
-
+.img-service-page {
+	width: 100%;
+	margin: 3rem 0rem 2rem 0rem;
+}
 
 .ex-header {
 	padding-top: 8rem;
@@ -2834,6 +2837,13 @@ opacity: 0;
 
 
 	/* Extra Pages */
+
+
+	.img-service-page {
+		width: 100%;
+		margin: 6rem 0rem 2rem 0rem;
+	}
+
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
