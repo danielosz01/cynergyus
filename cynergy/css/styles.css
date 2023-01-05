@@ -1683,11 +1683,25 @@ input[type='checkbox'] {
 /***********************/
 /*     16. Contact     */
 /***********************/
+.contact .container {
+	background-color: #F4F7FD;
+}
+
 .form {
 	padding-top: 11.25rem;
 	padding-bottom: 5.625rem;
 	background-size: cover; 
 	background-color: #fff;
+}
+
+.form .white-box {
+	padding: 1rem;
+	background-color: #F4F7FD;
+	border-radius: 1rem;
+	margin: 0rem 1rem 0rem 1rem;
+	padding: 1rem 1rem 1rem 1rem;
+
+				
 }
 
 .form-control-input{
@@ -1715,7 +1729,7 @@ input[type='checkbox'] {
 }
 
 .form .list-unstyled {
-	margin-bottom: 3.75rem;
+	margin-bottom: 1.75rem;
 	font-size: 1rem;
 	line-height: 1.5rem;
 	text-align: center;
@@ -1735,6 +1749,10 @@ input[type='checkbox'] {
 
 .form .list-unstyled .fa-phone {
 	vertical-align: 3%;
+}
+
+.form .form-group {
+	margin: 0.8rem 1.5rem 0.8rem 1.5rem;
 }
 
 
@@ -3324,6 +3342,16 @@ opacity: 0;
 		border-color: #fff;
 	}
 
+	/* Contact */
+	.form .list-unstyled li {
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+
+	.form-group {
+		margin: 1rem 4rem 1rem 4rem;
+	}
+
 
 	/*    Contact Section     */
 	
@@ -3681,6 +3709,22 @@ opacity: 0;
 		margin-left: auto;
 	}
 	/* end of footer */
+
+
+
+	/* contact */
+
+	.form h2 {
+		margin-top: 2rem;
+	}
+
+	.form .form-group {
+		margin: 1.2rem 2.5rem 1.2rem 2.5rem;
+	}
+
+	.form .form-message {
+		margin-top: 2rem;
+	}
 
 
 
