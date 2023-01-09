@@ -379,11 +379,11 @@
 
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        //autoplay: {
-        //    delay: 5000,
-        //  },
+        autoplay: {
+            delay: 5000,
+        },
         //direction: 'vertical',
-        //loop: true,
+        loop: true,
       
         // If we need pagination
         pagination: {
@@ -400,6 +400,8 @@
         scrollbar: {
           el: '.swiper-scrollbar',
         },
+
+        effect: 'flip',
       });
 
 })(jQuery);
