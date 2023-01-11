@@ -783,7 +783,8 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 5rem;
+	margin-bottom: 4rem;
+	margin-left: 2rem;
 }
 
 .header h1 {
@@ -2516,6 +2517,46 @@ opacity: 0;
 	margin: 1rem;
 }
 
+/*************************/
+/*    Capability Page    */
+/*************************/
+
+
+.capability {
+	padding: 3rem 0rem 2rem 0rem;
+}
+
+.capability h2 {
+	color: #363636;
+	padding: 0rem 0rem 4rem 2rem;
+}
+
+.capability h3 {
+	font-size: 1.4rem;
+	color: #0050D8;
+}
+
+.capability li {
+	font-size: 0.9rem;
+	color: #5e5e5e;
+}
+
+.capability .text-box-yellow {
+	padding: 2rem 1rem 2rem 2rem;
+	background-color: #FFFCF6;
+	margin: 1rem;
+}
+
+.capability .text-box-blue {
+	padding: 2rem 1rem 2rem 2rem;
+	background-color: #F4F7FD;
+	margin: 1rem;
+}
+
+.capability .contact-section {
+	background-color: #fff;
+	margin-top: 3rem;
+}
 
 
 
@@ -3581,8 +3622,14 @@ opacity: 0;
 
 
 	/* Header */
+
+	.header {
+		padding-top: 12rem;
+	}
+
 	.header .text-container {
-		margin-top: 5.5rem;
+		padding-top: 9.5rem;
+		margin-left: 25%;
 		
 	}
 
@@ -3615,6 +3662,11 @@ opacity: 0;
         -webkit-align-items: center;
         align-items: center;
       }
+
+	  .swiper .image-container {
+		margin-right: -4rem;
+		padding-bottom: 10rem;
+	  }
 
 	  .swiper-slide img {
         display: block;
