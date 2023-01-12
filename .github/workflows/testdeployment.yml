@@ -20,7 +20,7 @@ jobs:
       - name: copying to web folder deployment
         run: |
           mv /home/ghrunner/cynergyusportal/cynergyus/cynergyus/* /home/ghrunner/cynergyusportal/cynergyus
-          sudo rsync -rvh --delete /home/ghrunner/cynergyusportal/cynergyus ${{ secrets.CYNERGY_US_TEST_PATH }}
+          sudo rsync -rvh --delete /home/ghrunner/cynergyusportal/cynergyus/ ${{ secrets.CYNERGY_US_TEST_PATH }}
       - name: Deleting the tmp repository folder
         run: |
           cd /home/ghrunner/cynergyusportal/
