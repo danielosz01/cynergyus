@@ -2415,7 +2415,7 @@ opacity: 0;
 	.about-container img{
 		position: left;
 		width: 8rem;
-		border-radius: 50%;
+		border-radius: 0%;
 		right: 9rem;
 		top: -3rem;
 		left: 5rem;
