@@ -2129,7 +2129,7 @@ a:hover.back-to-top {
 
 
 .service-section {
-	padding: 1.5rem 5rem 1.25rem 5rem;
+	padding: 1.5rem 5rem 1.25rem 1rem;
 	background-color: #ffffff;
 }
 
@@ -2211,7 +2211,7 @@ a:hover.back-to-top {
 	position: relative;
 	z-index: 1;
 	left: 0rem;
-	margin-top: -60rem;
+	margin-top: -85rem;
 }
 
 /*************************/
