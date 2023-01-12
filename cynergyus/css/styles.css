@@ -659,7 +659,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #0050D8;
+	color: #ffad0a;
 }
 
 /* Dropdown Menu */
@@ -687,7 +687,7 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #0050D8;
+	background-color: #ffad0a;
 }
 
 .navbar-custom .dropdown-item {
@@ -785,6 +785,8 @@ input[type='checkbox'] {
 .header .text-container {
 	margin-bottom: 4rem;
 	margin-left: 2rem;
+	background-color: #fff;
+	padding-bottom: 2rem;
 }
 
 .header h1 {
@@ -842,6 +844,7 @@ input[type='checkbox'] {
       }
 
       .swiper-slide {
+
         text-align: left;
         font-size: 18px;
         
@@ -2214,6 +2217,14 @@ a:hover.back-to-top {
 /*************************/
 /*      About Page       */
 /*************************/
+
+.about .card {
+	background-color: #ffad0a;
+}
+
+.about .card h5 {
+	color: #fff;
+}
 
 
 

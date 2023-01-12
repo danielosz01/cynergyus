@@ -401,7 +401,8 @@
           el: '.swiper-scrollbar',
         },
 
-        effect: 'flip',
+
+        effect: 'fade',
       });
 
 })(jQuery);
