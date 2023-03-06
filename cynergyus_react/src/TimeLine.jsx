@@ -1,5 +1,6 @@
 import react, {useState, Fragment } from 'react';
 import $ from "jquery";
+import PhotoSphere from './PhotoSphere.tsx';
 
 const TimeLine = () => {
 

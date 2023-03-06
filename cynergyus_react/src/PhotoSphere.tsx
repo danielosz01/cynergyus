@@ -1,6 +1,7 @@
 import { SyntheticEvent, useState, useEffect, useRef } from "react";
 
 
+
 const CENTER_COUNT = 6;
 const RADIUS = 600;
 const TOTAL_ROW = 2;
@@ -123,9 +124,16 @@ const PhotoSphere = () => {
     document.body.addEventListener('mousemove', onMouseMove);
   }, [imageData]);
 
-  const pickImage = (imgUrl:string) => {
+  const pickImage = (imgUrl:string, props) => {
+    let url = imgUrl.toString();
+    console.log(url)
+    if (url.contains('google')) {
+      console.log(props)
+      props.handleStep01Click();
+    }
     img.current!.style.backgroundImage = `url(${imgUrl})`;
     img.current!.style.transform = 'scale(1, 1)';
+
   }
 
   return (
