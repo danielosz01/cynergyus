@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  width: 3000px;
+}
+
+.container {
+  max-width:100%!important;
+  width:100%;
+  height:1960px;
+  perspective:1000;
+  -webkit-perspective:1000;
+  perspective-origin:50% 50%;
+  transform-style:preserve-3d;
+  position:relative;
+  margin:0 auto;
+}
+
+.photosphere {
+  position:absolute;
+  top:50%;
+  left:50%;
+  backface-visibility: visible;
+  transform:translateZ(-1200px);
+  transition:0.25s all ease-out;
+  transform-style:preserve-3d;
+  transform-origin:50% 50%;
+  cursor:pointer;
+
+}
+
+.photosphere-item {
+  width:270px;
+  height: 150px;
+  transform-origin:100% 50%;
+  position:absolute;
+  backface-visibility: visible;
+  top:-120px;
+  left:-120px;
+  border-radius:50%;
+  background-color:#ffffff;
+  border: 2px;
+  border-color: rgb(52, 125, 185);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.image-display {
+  position:fixed;
+  cursor:pointer;
+  width:1000px;
+  height:600px;
+  top:50%;
+  left:50%;
+  margin-top:-300px;
+  margin-left:-500px;
+  border:2px solid white;
+  border-radius:2px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  transition:0.5s all ease-out;
+  transform:scale(0, 0);
+}
+
+
+
+.time-header {
+  color: black;
+}
+
+
+
+
+
+/*      Time       */
+
+.spacing1 {
+  height: 5rem;
+}
+
+.time {
+	margin-top: 8rem;
+}
+
+.time-logo {
+	width: 2rem;
+	margin-top: -2.5rem;
+  margin-left: 1rem;
+}
+
+.time h1 {
+	color:#333;
+	font-weight:700;
+	margin-top:125px;	 
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	line-height:23px;
+}
+
+/* --- Start progress bar --- */
+
+.time .process-wrapper {
+	margin:auto;
+	max-width:1080px;
+}
+
+
+.time #progress-bar-container {
+	position:relative;
+	max-width:1580px;
+	margin:auto;
+	height:100px;
+	margin-top:65px;
+}
+
+
+
+.time #progress-bar-container ul {
+	padding:0;
+	margin:0;
+	padding-top:15px;
+	z-index:9999;
+	position:absolute;
+	width:100%;
+	margin-top:-40px
+}
+
+
+
+
+
+.time #progress-bar-container li {
+	list-style:none;
+	float:left;
+	width:5.5%;
+	text-align:center;
+	color:#aaa;
+	text-transform:uppercase;
+	font-size:11px;
+	cursor:pointer;
+	font-weight:700;
+	transition:all ease 0.2s;
+	vertical-align:bottom;
+	height:60px;
+	position:relative;
+}
+
+.time #progress-bar-container li .step-inner {
+	position:absolute;
+	width:100%;
+	bottom:0;
+    font-size: 12px;
+}
+
+.time #progress-bar-container li.active, #progress-bar-container li:hover {
+	color:#6b6b6b;
+}
+
+
+.time #progress-bar-container li:hover:after {
+	background:#555;
+}
+
+.time #progress-bar-container li.active:after {
+	background:#ffad0a;
+}
+
+.time #progress-bar-container #line {
+	width:95%;
+	margin:auto;
+	background: #eee;
+	height:6px;
+	position:absolute;
+	left:2%;
+	top:57px;
+	z-index:1;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+.time #progress-bar-container #line-progress {
+	content:" ";
+	width:3%;
+	height:100%;
+	background: #FFAD0A; 
+	position:absolute;
+	z-index:2;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+.time #progress-content-section {
+	width:90%;
+	margin: auto;
+	background: #eaf0fc;
+	border-radius: 4px;
+}
+
+.time #progress-content-section .section-content {
+	padding:30px 40px;
+	text-align:center;
+}
+
+.time #progress-content-section .section-content h2 {
+	font-size:17px;
+	text-transform:uppercase;
+	color:#333;
+	letter-spacing:1px;
+}
+
+.time #progress-content-section .section-content p {
+	font-size:16px;
+	line-height:1.8em;
+	color:#777;
+}
+
+.time #progress-content-section .section-content {
+	display:none;
+	animation: FadeInUp 700ms ease 1;
+	animation-fill-mode:forwards;
+	transform:translateY(15px);
+	opacity:0;
+}
+
+.time #progress-content-section .section-content.active {
+	display:block;
+}
+
+@keyframes FadeInUp {
+	0% {
+		transform:translateY(15px);
+		opacity:0;
+	}
+	
+	100% {
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
+
+/*    End Time    */
