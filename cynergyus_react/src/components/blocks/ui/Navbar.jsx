@@ -34,7 +34,7 @@ export const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link page-scroll" href="">Home <span className="sr-only">(current)</span></a>
+                                <a className="nav-link page-scroll" href="/">Home <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link page-scroll" href="/about">About</a>
@@ -42,7 +42,7 @@ export const Navbar = () => {
 
                             
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle page-scroll" href="/cynergyus/services.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <a className="nav-link dropdown-toggle page-scroll" href="/services" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a className="dropdown-item" href="services/iso"><span className="item-text">ISO</span></a>
                                     <div className="dropdown-items-divide-hr"></div>

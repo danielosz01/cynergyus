@@ -21,6 +21,7 @@ import { QualityPolicy } from './components/pages/QualityPolicy.jsx'
 import { Software } from './components/pages/Software.jsx'
 import { Videos } from './components/pages/Videos.jsx'
 import { Contact } from './components/pages/Contact.jsx'
+import { Services } from './components/pages/services.jsx'
 
 
 
@@ -39,12 +40,13 @@ function App() {
       <Navbar ></Navbar>
       <BrowserRouter>
         <Routes>
-          <Route path='/services'>
-            <Route path='iso' element={<Iso />}></Route>
-            <Route path='responsibility' element={<Responsibility />}></Route>
-            <Route path='capability' element={<Capability />}></Route>
-            <Route path='quality' element={<QualityPolicy />}></Route>
-          </Route>
+          
+          <Route path='/iso' element={<Iso />}></Route>
+          <Route path='/responsibility' element={<Responsibility />}></Route>
+          <Route path='/capability' element={<Capability />}></Route>
+          <Route path='/quality' element={<QualityPolicy />}></Route>
+          <Route path='/services' element={<Services />}></Route>
+          
 
           <Route path='/contact' element={<Contact />}/>
           <Route path='/videos' element={<Videos />}/>

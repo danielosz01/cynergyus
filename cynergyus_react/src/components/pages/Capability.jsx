@@ -107,6 +107,7 @@ export const Capability = () => {
                     </div>
 
                  
+                    <div class="contact-section-global">
                     <div class="container">
                         <div class="card">
                             <div class="card-body">
@@ -116,11 +117,12 @@ export const Capability = () => {
                                         <p class="card-text">Build modern looking ERP solutions fast and easy using Quick</p>
                                     </div>
                                     <div class="col-md-6">
-                                        <a class="btn-solid-reg" href="/cynergyus/services.html"><i>Know More</i></a>
+                                        <a class="btn-solid-reg" href="cynergyus/contact"><i>Know More</i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                     
              

@@ -2982,6 +2982,11 @@ opacity: 0;
 	color: #646464;
 }
 
+.software ul {
+	margin-left: 2rem;
+	list-style-type: disc; 
+}
+
 .software .text-box-yellow {
 	padding: 2rem 1rem 2rem 1rem;
 	background-color: #FFFCF6;
@@ -4602,7 +4607,7 @@ opacity: 0;
 	
 	.img-service-r {
 		top: 10%;
-		left: 5%;
+		left: -20%;
 		width: 24rem;
 		position: relative;
 		z-index: 1;
@@ -4622,7 +4627,7 @@ opacity: 0;
 		position: relative;
 		z-index: 1;
 		top: 3rem;
-		margin-left: 3rem;
+		margin-left: 6rem;
 	}
 }
 /* end of min-width width 1200px */
