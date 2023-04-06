@@ -38,7 +38,7 @@ function App() {
   return (
     <Fragment>
       <Navbar ></Navbar>
-      <BrowserRouter>
+      <BrowserRouter basename="/cynergyus">
         <Routes>
           
           <Route path='/iso' element={<Iso />}></Route>
