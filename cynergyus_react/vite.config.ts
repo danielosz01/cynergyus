@@ -6,16 +6,16 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
 
-  build: {
+  /*build: {
     target: 'es2015',
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
-      input: path.resolve(__dirname, 'src/index.js'),
+      input: path.resolve(__dirname, 'src/main.jsx'),
       output: {
         file: 'cynergyus/bundle.js',
         assetFileNames: 'cynergyus/[name].[hash][extname]',
-        dir: 'dist',
+        //dir: 'dist',
         name: 'MyLibrary',
         format: 'iife',
         exports: 'named',
@@ -23,8 +23,8 @@ export default defineConfig({
         sourcemap: true,
       },
     },
-  },
-  base: '/cynergyus/',  
+  },*/
+  //base: '/cynergyus/',  
 
   server:{
     port:3939,
