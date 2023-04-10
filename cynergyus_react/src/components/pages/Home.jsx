@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 
+import { Navbar } from "../blocks/ui/Navbar";
 import { Header } from '../blocks/header/Header'
 import { Counter } from '../blocks/counter/Counter.jsx'
 import { WelcomeVideo } from '../blocks/welcomeVideo/WelcomeVideo.jsx'
@@ -16,7 +17,8 @@ export const Home = () => {
 
 
     return (
-        <Fragment> 
+        <Fragment>
+            <Navbar /> 
             <Header></Header>
             <Counter></Counter>
             <WelcomeVideo></WelcomeVideo>

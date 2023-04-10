@@ -3,8 +3,11 @@ import { Fragment, useState } from 'react';
 import {
   Routes,
   Route,
+
   Link,
-  BrowserRouter
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider
 } from "react-router-dom"
 
 
@@ -26,17 +29,23 @@ import { Services } from './components/pages/services.jsx'
 
 
 
-
-
-
-
-
 function App() {
 
   //const [data, setData] = useState<{imageData:string[]}>({imageData:[]})
 
   return (
-    <Fragment>
+
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' Component={Home}> </Route>
+        <Route exact path='about' Component={AboutPage}> </Route>
+        <Route exact path='contact' Component={Contact}> </Route>
+        <Route Component={Home}> </Route>
+      </Routes>
+    </BrowserRouter>
+
+
+    /*<Fragment>
       <Navbar ></Navbar>
       <BrowserRouter basename="/cynergyus">
         <Routes>
@@ -57,7 +66,7 @@ function App() {
         </BrowserRouter>
       
       <Footer ></Footer>
-    </Fragment>  
+    </Fragment>  */
 
   
 
