@@ -36,9 +36,18 @@ function App() {
   return (
 
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route exact path='/' Component={Home}> </Route>
         <Route exact path='about' Component={AboutPage}> </Route>
+        <Route exact path='contact' Component={Contact}> </Route>
+        <Route exact path='services' Component={Services}> </Route>
+        <Route exact path='iso' Component={Iso}> </Route>
+        <Route exact path='responsibility' Component={Responsibility}> </Route>
+        <Route exact path='capability' Component={Capability}> </Route>
+        <Route exact path='quality' Component={QualityPolicy}> </Route>
+        <Route exact path='software' Component={Software}> </Route>
+        <Route exact path='videos' Component={Videos}> </Route>
         <Route exact path='contact' Component={Contact}> </Route>
         <Route Component={Home}> </Route>
       </Routes>

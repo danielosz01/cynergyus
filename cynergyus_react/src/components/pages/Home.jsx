@@ -18,7 +18,7 @@ export const Home = () => {
 
     return (
         <Fragment>
-            <Navbar /> 
+            <Navbar />
             <Header></Header>
             <Counter></Counter>
             <WelcomeVideo></WelcomeVideo>

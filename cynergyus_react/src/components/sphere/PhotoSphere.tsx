@@ -14,11 +14,12 @@ export const PhotoSphere = () => {
   //console.log(props.imageData)
 
 
-
+  const cynOneLogo = './images/cynone.svg'
+  
 
   const imageData = [
-    '/src/assets/images/cynergy-11.svg',
-    '/src/assets/images/cynone.svg',
+    './src/assets/images/cynergy-11.svg',
+    cynOneLogo,
     '',
     '../images/formlabs.svg',
     './images/google.svg',
@@ -26,7 +27,7 @@ export const PhotoSphere = () => {
     '../assets/images/lg.svg',
     '/cynergyus_react/src/assets/images/lglogo.png',
     './images/tcl.svg',
-    '/src/assets/images/tmobile.svg',
+    './src/assets/images/tmobile.svg',
     '/src/assets/images/atat-12.svg',
     '/src/assets/images/google.svg',
 

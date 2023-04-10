@@ -35,41 +35,41 @@ export const Navbar = () => {
 
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav ml-auto">
-                            <Nav.link className="nav-item">
+                            <Nav.Link className="nav-item">
                                 <Link to={"/"} className="nav-link page-scroll" href="">Home <span className="sr-only">(current)</span></Link>
-                            </Nav.link>
-                            <Nav.link className="nav-item">
+                            </Nav.Link>
+                            <Nav.Link className="nav-item">
                                 <Link to={"/about"} className="nav-link page-scroll" href="about">About</Link>
-                            </Nav.link>
+                            </Nav.Link>
 
                             
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle page-scroll" href="/services" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                            <Nav.Link className="nav-item dropdown">
+                                <Link to={'/services'} className="nav-link dropdown-toggle page-scroll" href="/services" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="services/iso"><span className="item-text">ISO</span></a>
+                                    <Link to={'/iso'} className="dropdown-item" href="services/iso"><span className="item-text">ISO</span></Link>
                                     <div className="dropdown-items-divide-hr"></div>
-                                    <a className="dropdown-item" href="services/responsibility"><span className="item-text">Responsibility</span></a>
+                                    <Link to={'/responsibility'} className="dropdown-item" href="services/responsibility"><span className="item-text">Responsibility</span></Link>
                                     <div className="dropdown-items-divide-hr"></div>
-                                    <a className="dropdown-item" href="services/capability"><span className="item-text">Capability</span></a>
+                                    <Link to={'/capability'} className="dropdown-item" href="services/capability"><span className="item-text">Capability</span></Link>
                                     <div className="dropdown-items-divide-hr"></div>
-                                    <a className="dropdown-item" href="services/quality"><span className="item-text">Quality Policy</span></a>
+                                    <Link to={'/quality'} className="dropdown-item" href="services/quality"><span className="item-text">Quality Policy</span></Link>
                                 </div>
-                            </li>
+                            </Nav.Link>
                         
-                            <li className="nav-item">
-                                <a className="nav-link page-scroll" href="software">Software</a>
-                            </li>
+                            <Nav.Link className="nav-item">
+                                <Link to={'/software'} className="nav-link page-scroll" href="software">Software</Link>
+                            </Nav.Link>
                             
-                            <li className="nav-item">
-                                <a className="nav-link page-scroll" href="videos">Videos</a>
-                            </li>
+                            <Nav.Link className="nav-item">
+                                <Link to={'/videos'} className="nav-link page-scroll" href="videos">Videos</Link>
+                            </Nav.Link>
 
-                            <li className="nav-item">
-                                <a className="nav-link page-scroll" href="contact">Contact</a>
-                            </li>
-                            <li className="nav-item">
+                            <Nav.Link className="nav-item">
+                                <Link to={'/contact'} className="nav-link page-scroll" href="contact">Contact</Link>
+                            </Nav.Link>
+                            <Nav.Link className="nav-item">
                                 <a className="employee-login-btn" href="https://portal.cynergy1.com/cynergy/?ojr=Main" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-user"></i>Employee Login</a>
-                            </li>
+                            </Nav.Link>
                         </ul>
                         <span className="nav-item social-icons">
                             <span className="fa-stack">
