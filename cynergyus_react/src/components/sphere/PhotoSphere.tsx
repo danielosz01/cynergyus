@@ -18,27 +18,29 @@ export const PhotoSphere = () => {
   
 
   const imageData = [
-    './src/assets/images/cynergy-11.svg',
-    cynOneLogo,
-    '',
-    '../images/formlabs.svg',
-    './images/google.svg',
-    './images/iso.svg',
-    '../assets/images/lg.svg',
-    '/cynergyus_react/src/assets/images/lglogo.png',
-    './images/tcl.svg',
-    './src/assets/images/tmobile.svg',
-    '/src/assets/images/atat-12.svg',
-    '/src/assets/images/google.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/cynergy-11.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/cynone.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/formlabs.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/cynergy-11.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/google.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/formlabs.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/lglogo.png',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/lglogo.png',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/tcl.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/tmobile.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/atat-12.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/google.svg',
 
-    './images/tcl.svg',
-    './images/iso.svg',
-    './images/atat-12.svg',
-    './images/glowforge-10.svg',
-    './images/verkada.svg',
-    './src/assets/zte.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/tcl.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/iso.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/atat-12.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/glowforge-10.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/verkada.svg',
+    'http://www.renovalchile.cl/wp-content/uploads/2023/04/zte.svg',
 
   ];
+
+  console.log(imageData)
 
   
 
@@ -403,7 +405,7 @@ export const PhotoSphere = () => {
       </div>
     </div>
 
-
+<img src='./images/cynone.svg' alt="" />
 
 
 

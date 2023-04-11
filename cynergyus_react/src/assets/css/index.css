@@ -63,7 +63,7 @@
   top:-120px;
   left:-120px;
   border-radius:50%;
-  background-color:#c52828;
+  background-color:#ffffff;
   border: 2px;
   border-color: rgb(52, 125, 185);
   background-repeat:no-repeat;
@@ -107,7 +107,8 @@
 
 .time {
 	top: 10rem;
-	margin-top: 26rem!important;
+	margin-top: 24rem!important;
+	margin-bottom: -5rem;
 }
 
 .time-logo {
@@ -2561,9 +2562,6 @@ a:hover.back-to-top {
 
 /*      Time       */
 
-.time {
-	margin-top: -10rem;
-}
 
 .time-logo {
 	width: 2rem;
@@ -3142,6 +3140,7 @@ opacity: 0;
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 		background-color: #ffffff;
+		
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {

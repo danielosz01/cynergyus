@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { Link } from "react-router-dom";
 
 
 
@@ -47,15 +48,15 @@ export const Footer = () => {
                                 <ul class="list-unstyled li-space-lg">
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/services.html">Services</a>
+                                        <Link to={'/services'} class="footer-link" href="/cynergyus/services.html">Services</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/software.html">Software</a>
+                                        <Link to={'software'} class="footer-link" href="/cynergyus/software.html">Software</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/videos.html">Videos</a>
+                                        <Link to={'/videos'} class="footer-link" href="/cynergyus/videos.html">Videos</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -66,15 +67,15 @@ export const Footer = () => {
                                 <ul class="list-unstyled li-space-lg">
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/about.html">About</a>
+                                        <Link to={'/about'} class="footer-link" href="/cynergyus/about.html">About</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/contact.html">Contact</a>
+                                        <Link to={'/contact'} class="footer-link" href="/cynergyus/contact.html">Contact</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/responsibility.html">Responsibility</a>
+                                        <Link to={'/responsibility'} class="footer-link" href="/cynergyus/responsibility.html">Responsibility</Link>
                                     </li>     
                                 </ul>
                             </div>
@@ -85,15 +86,15 @@ export const Footer = () => {
                                 <ul class="list-unstyled li-space-lg">
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/iso.html">Iso</a>
+                                        <Link to={'/iso'} class="footer-link" href="/cynergyus/iso.html">Iso</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/quality-policy.html">Quality</a>
+                                        <Link to={'quality'} class="footer-link" href="/cynergyus/quality-policy.html">Quality</Link>
                                     </li>
                                     <li class="media">
                                         
-                                        <a class="footer-link" href="/cynergyus/capability.html">Capability</a>
+                                        <Link to={'capability'} class="footer-link" href="/cynergyus/capability.html">Capability</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -106,7 +107,7 @@ export const Footer = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <p class="p-small">Copyright © Cynergy 2023 <a href="">Inovatik</a></p>
+                            <p class="p-small">Copyright © Cynergy 2023</p>
                         </div> 
                     </div>
                 </div> 

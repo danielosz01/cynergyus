@@ -1,13 +1,11 @@
-import { Fragment, useState } from 'react';
+import { Fragment, useState, useEffect } from 'react';
+
 
 import {
   Routes,
   Route,
-
-  Link,
+  Navigate,
   BrowserRouter,
-  createBrowserRouter,
-  RouterProvider
 } from "react-router-dom"
 
 
@@ -31,51 +29,32 @@ import { Services } from './components/pages/services.jsx'
 
 function App() {
 
-  //const [data, setData] = useState<{imageData:string[]}>({imageData:[]})
+  const shouldRedirect = true;
+
+
+
 
   return (
 
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route exact path='/' Component={Home}> </Route>
-        <Route exact path='about' Component={AboutPage}> </Route>
-        <Route exact path='contact' Component={Contact}> </Route>
-        <Route exact path='services' Component={Services}> </Route>
-        <Route exact path='iso' Component={Iso}> </Route>
-        <Route exact path='responsibility' Component={Responsibility}> </Route>
-        <Route exact path='capability' Component={Capability}> </Route>
-        <Route exact path='quality' Component={QualityPolicy}> </Route>
-        <Route exact path='software' Component={Software}> </Route>
-        <Route exact path='videos' Component={Videos}> </Route>
-        <Route exact path='contact' Component={Contact}> </Route>
-        <Route Component={Home}> </Route>
-      </Routes>
-    </BrowserRouter>
-
-
-    /*<Fragment>
-      <Navbar ></Navbar>
-      <BrowserRouter basename="/cynergyus">
         <Routes>
-          
-          <Route path='/iso' element={<Iso />}></Route>
-          <Route path='/responsibility' element={<Responsibility />}></Route>
-          <Route path='/capability' element={<Capability />}></Route>
-          <Route path='/quality' element={<QualityPolicy />}></Route>
-          <Route path='/services' element={<Services />}></Route>
-          
-
-          <Route path='/contact' element={<Contact />}/>
-          <Route path='/videos' element={<Videos />}/>
-          <Route path='/software' element={<Software />}/>
-          <Route path='/about' element={<AboutPage />}/>
-          <Route path='/' element={<Home />}/>
+          <Route path='/' element={<Navigate to='/home' />} />
+          <Route exact path='home' Component={Home}> </Route>
+          <Route exact path='about' Component={AboutPage}> </Route>
+          <Route exact path='contact' Component={Contact}> </Route>
+          <Route exact path='services' Component={Services}> </Route>
+          <Route exact path='iso' Component={Iso}> </Route>
+          <Route exact path='responsibility' Component={Responsibility}> </Route>
+          <Route exact path='capability' Component={Capability}> </Route>
+          <Route exact path='quality' Component={QualityPolicy}> </Route>
+          <Route exact path='software' Component={Software}> </Route>
+          <Route exact path='videos' Component={Videos}> </Route>
+          <Route exact path='contact' Component={Contact}> </Route>
+          <Route path='*' element={<Navigate to='/home' />} />
         </Routes>
-        </BrowserRouter>
-      
-      <Footer ></Footer>
-    </Fragment>  */
+      <Footer />
+    </BrowserRouter>
 
   
 
