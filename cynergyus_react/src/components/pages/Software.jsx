@@ -24,7 +24,7 @@ export const Software = () => {
                     
                     <div class="row">
                         <div class="col-lg-6">
-                            <img class="img-fluid" src="/src/assets/images/Contact.png" alt="alternative"/>
+                            <img class="img-fluid" src="./public/assets/images/Contact.png" alt="alternative"/>
                         </div> 
                         <div class="col-lg-6">
                             <div class="text-container">
@@ -48,7 +48,7 @@ export const Software = () => {
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text-box-blue">
-                                <img class="sf-image" src="/src/assets/images/Group 56094.png" alt=""/>
+                                <img class="sf-image" src="./src/assets/images/Group 56094.png" alt=""/>
                                 <h5>Shop Floor Management</h5>
                                 <ul>
                                     <li>Tracking product flow from receiving to shipping</li>
@@ -61,7 +61,7 @@ export const Software = () => {
                         </div>
                         <div class="col-lg-6">
                             <div class="text-box-yellow">
-                                <img class="sf-image" src="/src/assets/images/Group 56091.png" alt=""/>
+                                <img class="sf-image" src=".src/assets/images/Group 56091.png" alt=""/>
                                 <h5>Warehouse Inventory Management</h5>
                                 <ul>
                                     <li>Tracking product flow from receiving to shipping</li>
@@ -76,7 +76,7 @@ export const Software = () => {
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text-box-yellow">
-                                <img class="sf-image" src="/src/assets/images/Group 56088.png" alt=""/>
+                                <img class="sf-image" src=".src/assets/images/Group 56088.png" alt=""/>
                             
                                 <h5>Quality Management</h5>
                                 <ul>
@@ -90,7 +90,7 @@ export const Software = () => {
                         </div>
                         <div class="col-lg-6">
                             <div class="text-box-blue">
-                                <img class="sf-image" src="/src/assets/images/Group 56089.png" alt=""/>
+                                <img class="sf-image" src=".src/assets/images/Group 56089.png" alt=""/>
                                 <h5>Reports Management</h5>
                                 <ul>
                                     <li>Tat reports with details history drilled down</li>
@@ -106,7 +106,7 @@ export const Software = () => {
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text-box-blue">
-                                <img class="sf-image" src="/src/assets/images/Group 56093.png" alt=""/>
+                                <img class="sf-image" src=".src/assets/images/Group 56093.png" alt=""/>
                                 <h5>HR Management</h5>
                                 <ul>
                                     <li>Manage basic employee information</li>
@@ -121,7 +121,7 @@ export const Software = () => {
                         </div>
                         <div class="col-lg-6">
                             <div class="text-box-yellow">
-                                <img class="sf-image" src="/src/assets/images/Group 56092.png" alt=""/>
+                                <img class="sf-image" src=".src/assets/images/Group 56092.png" alt=""/>
                                 <h5>Billing Management</h5>
                                 <ul>
                                     <li>Automated Labor and parts invoice generation based
