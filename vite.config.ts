@@ -26,7 +26,7 @@ export default defineConfig({
       },
     },
   },*/
-  base: './',  
+  base: 'https://danielosz01.github.io/',  
 
   server:{
     port:3939,
