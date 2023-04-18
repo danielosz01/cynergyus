@@ -26,7 +26,7 @@ export default defineConfig({
       },
     },
   },*/
-  base: 'https://danielosz01.github.io/',  
+  base: 'https://danielosz01.github.io/cynergyus/',  
 
   server:{
     port:3939,
