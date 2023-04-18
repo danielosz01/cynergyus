@@ -27,6 +27,17 @@ export default defineConfig({
     },
   },*/
   //base: 'https://danielosz01.github.io/cynergyus/',  
+
+
+  optimizeDeps: {
+    include: ['**/*.jsx'],
+    esbuildOptions: {
+      loader: {
+        '.jsx': 'jsx', // Cambia el tipo de contenido a "module"
+      },
+    },
+  },
+
   base: './',  
 
   server:{
