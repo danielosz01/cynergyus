@@ -29,6 +29,10 @@ export default defineConfig({
   //base: 'https://danielosz01.github.io/cynergyus/',  
 
 
+  resolve: {
+    extensions: ['.js', '.jsx'] // Agrega la extensión .jsx
+  },
+
   optimizeDeps: {
     include: ['**/*.jsx'],
     esbuildOptions: {

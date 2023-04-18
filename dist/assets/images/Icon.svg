@@ -1,0 +1,11 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Radius_-_100" data-name="Radius - 100">
+    <rect id="Shadow" width="64" height="64" rx="32" fill="rgba(255,255,255,0)"/>
+    <rect id="Color" width="64" height="64" rx="32" fill="#ffbe3d"/>
+    <rect id="State" width="64" height="64" rx="32" fill="rgba(255,255,255,0)"/>
+  </g>
+  <g id="Play" transform="translate(20 20)">
+    <rect id="_24pt_Bounding_Box" data-name="24pt Bounding Box" width="24" height="24" fill="none"/>
+    <path id="Fill" d="M1,20a1.019,1.019,0,0,1-.7-.281A.987.987,0,0,1,0,19V1A1,1,0,0,1,1.541.16l14,9a1,1,0,0,1,0,1.683l-14,9A1,1,0,0,1,1,20ZM2,2.833V17.17L13.151,10Z" transform="translate(4 1.998)" fill="#fff"/>
+  </g>
+</svg>
