@@ -25,7 +25,7 @@ export const Navbar = () => {
         <Fragment> 
             <nav className={fix ? 'navbar navbar-expand-md navbar-dark navbar-custom top-nav-collapse fixed-top': 'navbar navbar-expand-md navbar-dark navbar-custom fixed-top'}>
                 
-                    <a className="navbar-brand logo-image" href=""><img src='/src/assets/images/logo.svg' alt="alternative"/></a> 
+                    <a className="navbar-brand logo-image" href=""><img src='/assets/images/logo.svg' alt="alternative"/></a> 
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-awesome fas fa-bars"></span>
