@@ -10,7 +10,7 @@ export const Iso = () => {
     return (
         <Fragment> 
             <div class="img-container">
-                <img class="img-service-page" src="/src/assets/images/sISO.png" alt=""/>
+                <img class="img-service-page" src="/assets/images/sISO.png" alt=""/>
             </div>
 
             <div class="container">

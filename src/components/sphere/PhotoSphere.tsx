@@ -415,24 +415,24 @@ export const PhotoSphere = () => {
           <div className="process-wrapper">
               <div id="progress-bar-container">
                   <ul>
-                      <li className="step step01 active step-cynergy" onClick={handleStep01Click}><img src="/src/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">1999</div></li>
-                      <li className="step step02 step-lg" onClick={handleStep02Click}><img src="/src/assets/Clients Icons/lg-icon.svg" className="time-logo"/><div className="step-inner">2001</div></li>
-                      <li className="step step03 step-cynergy-2" onClick={handleStep03Click}><img src="/src/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2004</div></li>
-                      <li className="step step04 step-cynergy-one" onClick={handleStep04Click}><img src="/src/assets/Clients Icons/cyn-one-icon.svg" className="time-logo"/><div className="step-inner">2005</div></li>
-                      <li className="step step05 step-cynergy-3" onClick={handleStep05Click}><img src="/src/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2007</div></li>
-                      <li className="step step06 step-cynergy-4" onClick={handleStep06Click}><img src="/src/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2010</div></li>
-                      <li className="step step07 step-zte" onClick={handleStep07Click}><img src="/src/assets/Clients Icons/zte-icon.svg" className="time-logo"/><div className="step-inner">2011</div></li>
-                      <li className="step step08 step-iso" onClick={handleStep08Click}><img src="/src/assets/Clients Icons/iso-icon.svg" className="time-logo"/><div className="step-inner">2013</div></li>
-                      <li className="step step09 step-t-mobile" onClick={handleStep09Click}><img src="/src/assets/Clients Icons/t-mobile-logo.svg" className="time-logo"/><div className="step-inner">2014</div></li>
-                      <li className="step step10 step-google" onClick={handleStep10Click}><img src="/src/assets/Clients Icons/google.svg" className="time-logo"/><div className="step-inner">2016</div></li>
-                      <li className="step step11 step-iso-2" onClick={handleStep11Click}><img src="/src/assets/Clients Icons/iso-icon.svg" className="time-logo"/><div className="step-inner">2018</div></li>
-                      <li className="step step12 step-formlabs" onClick={handleStep12Click}><img src="/src/assets/Clients Icons/formlabs.svg" className="time-logo"/><div className="step-inner">2019</div></li>
-                      <li className="step step13 step-glowforge" onClick={handleStep13Click}><img src="/src/assets/Clients Icons/block-forge-icon.svg" className="time-logo"/><div className="step-inner">2019</div></li>
-                      <li className="step step14 step-google-2" onClick={handleStep14Click}><img src="/src/assets/Clients Icons/google.svg" className="time-logo"/><div className="step-inner">2020</div></li>
-                      <li className="step step15 step-tcl" onClick={handleStep15Click}><img src="/src/assets/Clients Icons/tcl-icon-14.svg" className="time-logo"/><div className="step-inner">2020</div></li>
-                      <li className="step step16 step-atel" onClick={handleStep16Click}><img src="/src/assets/Clients Icons/atel.svg" className="time-logo"/><div className="step-inner">2020</div></li>
-                      <li className="step step17 step-verkada" onClick={handleStep17Click}><img src="/src/assets/Clients Icons/verkada-icon.svg" className="time-logo"/><div className="step-inner">2021</div></li>
-                      <li data-id='cyn1'  className="step step18 munic" onClick={handleStep18Click}><img src="/src/assets/Clients Icons/munic-icon.svg" className="time-logo"/><div className="step-inner">2021</div></li>
+                      <li className="step step01 active step-cynergy" onClick={handleStep01Click}><img src="/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">1999</div></li>
+                      <li className="step step02 step-lg" onClick={handleStep02Click}><img src="/assets/Clients Icons/lg-icon.svg" className="time-logo"/><div className="step-inner">2001</div></li>
+                      <li className="step step03 step-cynergy-2" onClick={handleStep03Click}><img src="/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2004</div></li>
+                      <li className="step step04 step-cynergy-one" onClick={handleStep04Click}><img src="/assets/Clients Icons/cyn-one-icon.svg" className="time-logo"/><div className="step-inner">2005</div></li>
+                      <li className="step step05 step-cynergy-3" onClick={handleStep05Click}><img src="/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2007</div></li>
+                      <li className="step step06 step-cynergy-4" onClick={handleStep06Click}><img src="/assets/Clients Icons/cyn-icon.svg" className="time-logo"/><div className="step-inner">2010</div></li>
+                      <li className="step step07 step-zte" onClick={handleStep07Click}><img src="/assets/Clients Icons/zte-icon.svg" className="time-logo"/><div className="step-inner">2011</div></li>
+                      <li className="step step08 step-iso" onClick={handleStep08Click}><img src="/assets/Clients Icons/iso-icon.svg" className="time-logo"/><div className="step-inner">2013</div></li>
+                      <li className="step step09 step-t-mobile" onClick={handleStep09Click}><img src="/assets/Clients Icons/t-mobile-logo.svg" className="time-logo"/><div className="step-inner">2014</div></li>
+                      <li className="step step10 step-google" onClick={handleStep10Click}><img src="/assets/Clients Icons/google.svg" className="time-logo"/><div className="step-inner">2016</div></li>
+                      <li className="step step11 step-iso-2" onClick={handleStep11Click}><img src="/assets/Clients Icons/iso-icon.svg" className="time-logo"/><div className="step-inner">2018</div></li>
+                      <li className="step step12 step-formlabs" onClick={handleStep12Click}><img src="/assets/Clients Icons/formlabs.svg" className="time-logo"/><div className="step-inner">2019</div></li>
+                      <li className="step step13 step-glowforge" onClick={handleStep13Click}><img src="/assets/Clients Icons/block-forge-icon.svg" className="time-logo"/><div className="step-inner">2019</div></li>
+                      <li className="step step14 step-google-2" onClick={handleStep14Click}><img src="/assets/Clients Icons/google.svg" className="time-logo"/><div className="step-inner">2020</div></li>
+                      <li className="step step15 step-tcl" onClick={handleStep15Click}><img src="/assets/Clients Icons/tcl-icon-14.svg" className="time-logo"/><div className="step-inner">2020</div></li>
+                      <li className="step step16 step-atel" onClick={handleStep16Click}><img src="/assets/Clients Icons/atel.svg" className="time-logo"/><div className="step-inner">2020</div></li>
+                      <li className="step step17 step-verkada" onClick={handleStep17Click}><img src="/assets/Clients Icons/verkada-icon.svg" className="time-logo"/><div className="step-inner">2021</div></li>
+                      <li data-id='cyn1'  className="step step18 munic" onClick={handleStep18Click}><img src="/assets/Clients Icons/munic-icon.svg" className="time-logo"/><div className="step-inner">2021</div></li>
                   </ul>
                   
                   <div id="line">

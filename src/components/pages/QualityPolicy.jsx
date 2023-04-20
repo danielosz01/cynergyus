@@ -10,7 +10,7 @@ export const QualityPolicy = () => {
     return (
         <Fragment> 
                 <div>
-                    <img class="img-service-page" src="/src/assets/images/sQuality Policy.png" alt=""/>
+                    <img class="img-service-page" src="/assets/images/sQuality Policy.png" alt=""/>
                 </div>
 
                 <div class="container">

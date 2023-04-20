@@ -49,7 +49,7 @@ export const AboutUsSection = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4">
-                                <img className="img-fluid" src="./src/assets/images/vreceiving.png" alt="alternative" data-toggle="modal" 
+                                <img className="img-fluid" src="/assets/images/vreceiving.png" alt="alternative" data-toggle="modal" 
                                 data-target="#modal1"/>
                             </div> 
                             <div className="col-lg-8">
