@@ -10,7 +10,7 @@ export const Capability = () => {
     return (
         <Fragment> 
             <div class="img-container">
-                <img class="img-service-page" src="/src/assets/images/sCapability.png" alt=""/>
+                <img class="img-service-page" src="/assets/images/sCapability.png" alt=""/>
             </div>
 
 

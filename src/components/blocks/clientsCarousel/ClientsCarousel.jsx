@@ -51,42 +51,42 @@ export const ClientsCarousel = () => {
                                   <div className="swiper-wrapper">
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/google.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/google.png" alt="alternative"/>
                                           </div>
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/isologo.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/isologo.png" alt="alternative"/>
                                           </div>       
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/lglogo.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/lglogo.png" alt="alternative"/>
                                           </div>      
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/tcllogo.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/tcllogo.png" alt="alternative"/>
                                           </div>
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/ztelogo.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/ztelogo.png" alt="alternative"/>
                                           </div>        
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/formlabs.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/formlabs.png" alt="alternative"/>
                                           </div>  
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/tmobile.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/tmobile.png" alt="alternative"/>
                                           </div>  
                                       </SwiperSlide>
                                       <SwiperSlide>
                                           <div class="card">
-                                              <img class="card-image" src="src/assets/images/verkada.png" alt="alternative"/>
+                                              <img class="card-image" src="/assets/images/verkada.png" alt="alternative"/>
                                           </div>  
                                       </SwiperSlide>
 

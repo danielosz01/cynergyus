@@ -13,7 +13,7 @@ export const Basics2 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img className="img-fluid" src="src/assets/images/Contact.png" alt="alternative"/>
+                            <img className="img-fluid" src="/assets/images/Contact.png" alt="alternative"/>
                         </div> 
                         <div className="col-lg-6">
                             <div className="text-container">

@@ -21,7 +21,7 @@ export const Basics3 = () => {
                                 </div> 
                             </div> 
                             <div class="col-lg-6">
-                                <img class="img-fluid" src="src/assets/images/StartUp.png" alt="alternative"/>
+                                <img class="img-fluid" src="/assets/images/StartUp.png" alt="alternative"/>
                             </div> 
                         </div> 
                     </div> 

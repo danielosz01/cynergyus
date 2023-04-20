@@ -37,7 +37,7 @@ export const Header = () => {
                         </div> 
                         <div className="col-lg-6 col-xl-6">
                             <div className="image-container">
-                                <img className="img-fluid" src="src/assets/images/01.png" alt="alternative"/>
+                                <img className="img-fluid" src="/assets/images/01.png" alt="alternative"/>
                             </div> 
                         </div> 
                     </div> 
@@ -53,7 +53,7 @@ export const Header = () => {
                       </div> 
                       <div class="col-lg-6 col-xl-6">
                           <div class="image-container">
-                              <img class="img-fluid" src="src/assets/images/02.png" alt="alternative"/>
+                              <img class="img-fluid" src="/assets/images/02.png" alt="alternative"/>
                           </div> 
                       </div> 
                   </div> 
@@ -69,7 +69,7 @@ export const Header = () => {
                         </div> 
                         <div class="col-lg-6 col-xl-6">
                             <div class="image-container">
-                                <img class="img-fluid" src="src/assets/images/03.png" alt="alternative"/>
+                                <img class="img-fluid" src="/assets/images/03.png" alt="alternative"/>
                             </div> 
                         </div> 
                     </div> 
@@ -85,7 +85,7 @@ export const Header = () => {
                         </div> 
                         <div class="col-lg-6 col-xl-6">
                             <div class="image-container">
-                                <img class="img-fluid" src="src/assets/images/04.png" alt="alternative"/>
+                                <img class="img-fluid" src="/assets/images/04.png" alt="alternative"/>
                             </div> 
                         </div> 
                     </div> 

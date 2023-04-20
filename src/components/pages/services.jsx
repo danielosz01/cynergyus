@@ -21,7 +21,7 @@ export const Services = () => {
                         
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <img class="img-service-r" src="/src/assets/images/Group 56083.png" alt="alternative" data-toggle="modal" 
+                                    <img class="img-service-r" src="/assets/images/Group 56083.png" alt="alternative" data-toggle="modal" 
                                     data-target="#modal1"/>
                                 </div> 
                                 <div class="col-lg-6">
@@ -50,12 +50,12 @@ export const Services = () => {
                                         <div class="text-container">
                                             <h3>Capability</h3>
                                             <p>Cynergy is an exceptional, electronics service provider specializing in the provision of warranty services, re-manufacturing, and repair of electronic devices across a broad spectrum of manufacturers and their product retailers. The scope includes incoming triage, disassembly, repair, assembly, testing, packaging, shipping, RMA fulfillment, and the warehousing of customer-owned electronic technology and materials.</p>
-                                            <a class="btn-solid-reg" href="/src/assets/cynergyus/capability.html"><i>Know More</i></a>
+                                            <a class="btn-solid-reg" href="/assets/cynergyus/capability.html"><i>Know More</i></a>
                                         </div>
                                     </div>
                                 </div> 
                                 <div class="col-lg-6">
-                                    <img class="img-service-l" src="/src/assets/images/Group 56084.png" alt="alternative" data-toggle="modal" 
+                                    <img class="img-service-l" src="/assets/images/Group 56084.png" alt="alternative" data-toggle="modal" 
                                     data-target="#modal2"/>
                                 </div> 
                                 
@@ -71,7 +71,7 @@ export const Services = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img class="img-service-r" src="/src/assets/images/Group 56085.png" alt="alternative" data-toggle="modal" 
+                                <img class="img-service-r" src="/assets/images/Group 56085.png" alt="alternative" data-toggle="modal" 
                                 data-target="#modal1"/>
                             </div> 
                             <div class="col-lg-6">
@@ -79,7 +79,7 @@ export const Services = () => {
                                     <div class="text-container">
                                         <h3>Responsibility</h3>
                                         <p>The adaptation of SMART business goals and utilization of ISO has defined the repair process flow and the continual secure handling of electronic devices. Cynergy also uses forced routing for effective management of electronics throughout the repair and assembly processes. This eliminates process bottlenecks, allows for the forecasting of parts, and optimizes work schedules.</p>
-                                        <a class="btn-solid-reg" href="/src/assets/cynergyus/responsibility.html"><i>Know More</i></a>
+                                        <a class="btn-solid-reg" href="/assets/cynergyus/responsibility.html"><i>Know More</i></a>
                                     </div>
                                 </div>
                             </div> 
@@ -98,12 +98,12 @@ export const Services = () => {
                                     <div class="text-container">
                                         <h3>ISO</h3>
                                         <p>Cynergy has earned certification to ISO 9001:2015 that helps ensures customer satisfaction while promoting continual improvement as well as an effective quality management system. ISO’s seven principles of quality management have enhanced Cynergy’s capabilities to measure, monitor report and analyze the effectiveness of services they provide.</p>
-                                        <a class="btn-solid-reg" href="/src/assets/cynergyus/iso.html"><i>Know More</i></a>
+                                        <a class="btn-solid-reg" href="/assets/cynergyus/iso.html"><i>Know More</i></a>
                                     </div>
                                 </div>
                             </div> 
                             <div class="col-lg-6">
-                                <img class="img-service-l" src="/src/assets/images/Group 56086.png" alt="alternative" data-toggle="modal" 
+                                <img class="img-service-l" src="/assets/images/Group 56086.png" alt="alternative" data-toggle="modal" 
                                 data-target="#modal1"/>
                             </div> 
                         </div> 
@@ -122,7 +122,7 @@ export const Services = () => {
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <img src="/src/assets/images/Group 56083.png" alt=""/>
+                                            <img src="/assets/images/Group 56083.png" alt=""/>
                                         </div>
                                         <div class="col-md-8">
                                             <h3>Quality Policy</h3>
@@ -145,7 +145,7 @@ export const Services = () => {
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <img src="/src/assets/images/Group 56084.png" alt=""/>
+                                            <img src="/assets/images/Group 56084.png" alt=""/>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="row">

@@ -18,7 +18,7 @@ export const Footer = () => {
                         <div class="col-md-3">
                             <div class="footer-col">
                                 
-                                <a class="logo-image" href="index.html"><img src="/src/assets/images/logo.svg" alt="alternative"/></a>
+                                <a class="logo-image" href="index.html"><img src="/assets/images/logo.svg" alt="alternative"/></a>
                                 <p>Cynergy strives to provide the best possible value by being reliable and efficient through use of advanced technology and IT</p>
                             </div>
                             <div class="footer-icons">

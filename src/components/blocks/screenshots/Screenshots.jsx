@@ -69,21 +69,21 @@ export const Screenshots = () => {
                                     <div className="swiper-wrapper">
                           <SwiperSlide>
                               
-                                  <img className="img-fluid" src="src/assets/images/Default.png" alt="alternative" data-toggle="modal" 
+                                  <img className="img-fluid" src="/assets/images/Default.png" alt="alternative" data-toggle="modal" 
                                   data-target="#modal1"/>
                               
                           </SwiperSlide>
                           <SwiperSlide>
                               
-                              <img className="img-fluid" src="src/assets/images/receiving.jpg" alt="alternative" data-toggle="modal" 
+                              <img className="img-fluid" src="/assets/images/receiving.jpg" alt="alternative" data-toggle="modal" 
                                   data-target="#modal2"/>
                           </SwiperSlide>
                           <SwiperSlide>
-                              <img className="img-fluid" src="src/assets/images/Default-1.png" alt="alternative" data-toggle="modal" 
+                              <img className="img-fluid" src="/assets/images/Default-1.png" alt="alternative" data-toggle="modal" 
                                   data-target="#modal3"/>
                           </SwiperSlide>
                           <SwiperSlide>
-                              <img className="img-fluid" src="src/assets/images/Default-2.png" alt="alternative" data-toggle="modal" 
+                              <img className="img-fluid" src="/assets/images/Default-2.png" alt="alternative" data-toggle="modal" 
                                   data-target="#modal4"/>
                           </SwiperSlide>
                                         

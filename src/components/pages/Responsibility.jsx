@@ -10,7 +10,7 @@ export const Responsibility = () => {
     return (
         <Fragment> 
                 <div>
-                    <img class="img-service-page" src="/src/assets/images/sResponsibility.png" alt=""/>
+                    <img class="img-service-page" src="/assets/images/sResponsibility.png" alt=""/>
                 </div>
 
                 <div class="container">
