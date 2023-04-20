@@ -10,7 +10,7 @@ export const Services = () => {
     return (
         <Fragment> 
 
-            <div class="container">
+            
 
 
                 
@@ -259,7 +259,7 @@ export const Services = () => {
                     </div>
                 </div>
 
-            </div>
+            
 
         </Fragment>
 
